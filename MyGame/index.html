@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyGame</title>
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body >
+
+
+<!-- <div class="bg">
+    
+    <img src="img/bg2.png" style="width:100%; height:auto;">
+</div> -->
+
+<div id="app">
+
+
+   <section v-if="!startApp" class="box-start">
+                <img src="img/white.png" style="width:150px; height:auto;" class="zoomIn animated">
+                <p >Welcome To MyGame</p>
+                <button class="main-btn" @click="start">START NEW GAME</button>
+           
+       
+            
+        
+    </section>  
+
+
+
+
+  <section class="row controls" v-else>
+      <section class="row">
+        
+            <div class="small-4 columns" style="text-align: center;">
+                   <img src="img/666.png" style="height:150px; width:auto;border: 2px solid white;" class="fadeInDown animated">
+                   <h1 class="text-center">You</h1>
+                   <div class="healthbar">
+                      <div class="healthbar text-center" style="background-color: white; margin: 0; color: black;border:none;height: 21px;" :style="{width: playerHealth + '%'}">
+                      {{ playerHealth }}
+                     </div>
+                  </div>
+           </div>
+        
+           <div class="small-4 columns" style="text-align: center;">
+                  <img src="img/6666.png" style="height:150px; width:auto;border: 2px solid white;" class="fadeInDown animated">
+                  <h1 class="text-center">Monster</h1>
+                  <div class="healthbar">
+                     <div class="healthbar text-center" style="background-color: white; margin: 0; color: black;border:none;height: 21px;"
+                     :style="{width: monsterHealth + '%'}">
+                     {{ monsterHealth }}
+                    </div>
+                 </div>
+           </div>
+
+    </section>
+    
+
+    <section class="row controls" v-if="!gameIsRunning">
+        <div class="small-12 columns">
+            <button class="main-btn" @click="startGame">Get Started</button>
+        </div>
+    </section>
+
+
+    <section class="row controls" v-else>
+        <div class="small-12 columns">
+            <button id="attack" @click="attack">Attack</button>
+            <button id="special-attack" @click="specialAttack">Special Attack</button>
+            <button id="heal" @click="heal">Heal</button>
+            <button id="give-up" @click="giveUp">Give up</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="row log">
+        <div class="small-12 columns">
+            <div class="slideInUp animated" style="margin-top:-30px;">
+            <p>Damage : {{ T }}</p>
+           </div>
+
+           
+            
+        </div>
+    </section>
+
+
+
+
+</section>  
+</div>
+<script src="app.js"></script>
+</body>
+</html>

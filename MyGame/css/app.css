@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+    color: white;
+}
+.bg {
+    position: absolute;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.box-start {
+   position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box-start p {
+   font-size: 40px;
+}
+
+.main-btn {
+    background-color: transparent;
+    border:2px solid ;
+    border-color: white;
+    font-size: 20px;
+
+
+}
+.main-btn:hover {
+    background-color: white;
+    border:2px solid ;
+    color: black;
+    
+
+
+}
+
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.healthbar {
+    width: 80%;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid;
+    margin: auto;
+    transition: width 500ms;
+    margin-top: -10px;
+}
+
+.controls, .log {
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.turn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.log ul {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.log ul li {
+    margin: 5px;
+}
+
+.log ul .player-turn {
+    color: blue;
+    background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+    color: red;
+    background-color: #ffc0c1;
+}
+
+button {
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#start-game {
+    background-color: #aaffb0;
+}
+
+#start-game:hover {
+    background-color: #76ff7e;
+}
+
+#attack {
+    
+    background-color: transparent;
+    border:2px solid ;
+    border-color: white;
+    font-size: 20px;
+}
+
+#attack:hover {
+    background-color: #ff3f43;
+    color: white;
+    border-color: #ff3f43;
+
+}
+
+#special-attack {
+    background-color: transparent;
+    border:2px solid ;
+    border-color: white;
+    font-size: 20px;
+}
+
+#special-attack:hover {
+    background-color: #ff9a2b;
+
+    color: white;
+    border-color: #ff9a2b;
+}
+
+#heal {
+    background-color: transparent;
+    border:2px solid ;
+    border-color: white;
+    font-size: 20px;
+}
+
+#heal:hover {
+    background-color: #76ff7e;
+    color: white;
+    border-color:  #76ff7e;
+}
+
+#give-up {
+   background-color: transparent;
+    border:2px solid ;
+    border-color: white;
+    font-size: 20px;
+}
+
+#give-up:hover {
+    background-color: #c7c7c7;
+    color: white;
+    border-color:  #c7c7c7;
+}
