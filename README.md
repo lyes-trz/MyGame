@@ -8,7 +8,8 @@
 
 
 ## Logo
-  ![black-logo](https://user-images.githubusercontent.com/44152758/47158573-dd7a7780-d2e3-11e8-92ea-f66c288a7bff.png)
+ ![fulllogo](https://user-images.githubusercontent.com/44152758/47159569-10256f80-d2e6-11e8-90a5-4264d033abaf.jpg)
+
 
 
 ## Screenshots
