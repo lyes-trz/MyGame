@@ -6,11 +6,11 @@
 ![fulllogo](https://user-images.githubusercontent.com/44152758/47159140-19620c80-d2e5-11e8-802c-546286df6149.jpg)
 
 
-### Logo
+## Logo
   ![black-logo](https://user-images.githubusercontent.com/44152758/47158573-dd7a7780-d2e3-11e8-92ea-f66c288a7bff.png)
 
 
-#### Screenshots
+## Screenshots
 
 ![2018-10-18 5](https://user-images.githubusercontent.com/44152758/47158603-ef5c1a80-d2e3-11e8-8efb-797d2cf70268.png)
 
