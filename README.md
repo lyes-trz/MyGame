@@ -14,6 +14,8 @@
 
 ## Screenshots
 
+![mygame](https://user-images.githubusercontent.com/44152758/48122837-ce4e7000-e278-11e8-8db1-e054c1f2f474.gif)
+
 ![2018-10-18 5](https://user-images.githubusercontent.com/44152758/47158603-ef5c1a80-d2e3-11e8-8efb-797d2cf70268.png)
 
 ![2018-10-18 6](https://user-images.githubusercontent.com/44152758/47158623-f7b45580-d2e3-11e8-82f1-fcae5830d35e.png)
@@ -32,4 +34,4 @@
  
 ![2018-10-18 13](https://user-images.githubusercontent.com/44152758/47158795-4f52c100-d2e4-11e8-9279-20f6b2cb8faa.png)
 
-![mygame](https://user-images.githubusercontent.com/44152758/48122837-ce4e7000-e278-11e8-8db1-e054c1f2f474.gif)
+
